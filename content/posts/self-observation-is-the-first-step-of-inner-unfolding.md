@@ -4,7 +4,7 @@ date: 2022-03-16 14:38:18+05:30
 featuredImage: ../images/girl-waring-woolen-sawl.jpg
 tags:
   - Lifestyle
-author: Biswajit Saha
+author: Yashar Moradi
 featured: true
 published: true
 ---

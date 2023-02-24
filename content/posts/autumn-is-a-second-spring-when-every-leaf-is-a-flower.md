@@ -4,7 +4,7 @@ date: 2022-05-04 11:31:19+05:30
 featuredImage: ../images/photo-frame.jpg
 tags:
   - Nature
-author: "Harini Banerjee"
+author: Yashar Moradi
 featured: false
 published: true
 ---

@@ -4,7 +4,7 @@ date: 2022-01-27 13:51:32+05:30
 featuredImage: ../images/apples.jpg
 tags:
   - Nature
-author: Surabhi Gupta
+author: Yashar Moradi
 description: ""
 featured: false
 published: true

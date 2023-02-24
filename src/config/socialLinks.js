@@ -2,19 +2,15 @@ module.exports = {
   social: [
     {
       name: "Twitter",
-      url: "https://twitter.com/gbjsolution",
+      url: "https://twitter.com/yasharmoradi",
     },
     {
-      name: "Facebook",
-      url: "https://facebook.com/gbjsolution",
-    },
-    {
-      name: "Instagram",
-      url: "https://instagram.com/",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/yasharmoradi",
     },
     {
       name: "Github",
-      url: "https://github.com/gatsbyjs",
+      url: "https://github.com/maveric1977",
     },
   ],
 }

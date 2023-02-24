@@ -1,7 +1,7 @@
 module.exports = {
   // General settings
   pathPrefix: "/", // If you deploy your site to yourdomain.tld/blog/ your pathPrefix should be "blog/"
-  title: "Arun", // Navigation and Site Title
+  title: "Yashar Moradi", // Navigation and Site Title
   titleTemplate: "%s", // To Add extra part in title. the title replace the %s. Example: `%s | Site title`
   description: "A premium gatsby blog template",
   siteUrl: "https://yourdomain.tld", // Domain address of your site. Do not add trailing slash!
@@ -15,7 +15,7 @@ module.exports = {
   stickyNav: true,
 
   //place default cover image in static/images folder - used in home page cover
-  cover: "/images/cover.jpg",
+  cover: "/images/cover1.jpg",
 
   // number of featured posts to show on home page
   featuredPostCount: 2,
