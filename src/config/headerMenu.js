@@ -5,8 +5,8 @@ module.exports = {
       url: "/",
     },
     {
-      name: "Features",
-      url: "/features/",
+      name: "Services",
+      url: "/services/",
     },
     {
       name: "Tags",

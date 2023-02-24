@@ -1,7 +1,6 @@
 import React from "react"
-import HomeHeroSubscription from "./HomeHeroSubscription"
 import SocialLinks from "./SocialLinks"
-import { graphql, Link, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const HomeHero = () => {
@@ -68,7 +67,7 @@ const HomeHero = () => {
                         <div className="home-cover-content-wrap">
                             <h1 className="heading-large">Hello I am Yashar</h1>
                             <div className="intro-description">
-                                A seasoned technology leader with over 25 years of experience in software architecture,
+                                A seasoned technology leader with over two decades of experience in software architecture,
                                 lean/agile coaching, and mentorship for high-performing product development teams. I'm
                                 passionate about helping startups and established businesses achieve their technology
                                 and leadership goals, especially in today's ever-evolving digital landscape.
@@ -77,8 +76,8 @@ const HomeHero = () => {
                                 Let's connect and see how I can help drive meaningful growth for your business.
                                 <br/>
                                 <br/>
-                                <a className="btn" href="https://calendly.com/yashar_moradi/30min" target={ "_blank" }>Let's
-                                    Chat</a>
+                                <a className="btn" href="https://calendly.com/yashar_moradi/30min" target={ "_blank" } rel={ "noreferrer" }>Let's
+                                    Connect</a>
                             </div>
                             {/*<HomeHeroSubscription />*/ }
                             <SocialLinks/>
