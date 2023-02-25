@@ -1,6 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import PostItem from "./PostItem"
 import ServiceItem from "./ServiceItem";
 
 const FeaturedPostLoop = ({ posts }) => {

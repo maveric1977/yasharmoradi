@@ -8,6 +8,10 @@ module.exports = {
           url: "/",
         },
         {
+          name: "About Me",
+          url: "/about/",
+        },
+        {
           name: "Services",
           url: "/services/",
         },
