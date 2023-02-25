@@ -8,8 +8,8 @@ module.exports = {
           url: "/",
         },
         {
-          name: "Elements",
-          url: "/elements/",
+          name: "Services",
+          url: "/services/",
         },
         {
           name: "Features",
@@ -47,19 +47,15 @@ module.exports = {
       items: [
         {
           name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Facebook",
-          url: "#",
+          url: "https://twitter.com/yasharmoradi",
         },
         {
           name: "Linkedin",
-          url: "#",
+          url: "https://www.linkedin.com/in/yasharmoradi",
         },
         {
           name: "Github",
-          url: "#",
+          url: "https://github.com/maveric1977",
         },
       ],
     },

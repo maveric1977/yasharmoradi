@@ -2,9 +2,9 @@ module.exports = {
   // General settings
   pathPrefix: "/", // If you deploy your site to yourdomain.tld/blog/ your pathPrefix should be "blog/"
   title: "Yashar Moradi", // Navigation and Site Title
-  titleTemplate: "%s", // To Add extra part in title. the title replace the %s. Example: `%s | Site title`
-  description: "A premium gatsby blog template",
-  siteUrl: "https://yourdomain.tld", // Domain address of your site. Do not add trailing slash!
+  titleTemplate: "%s | Fractional CTO | Agile Coach", // To Add extra part in title. the title replace the %s. Example: `%s | Site title`
+  description: "Strategic Technology Advisor | Fractional CTO | Agile Coach",
+  siteUrl: "https://yashar.moradi.space", // Domain address of your site. Do not add trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
 
   // place logo images in static/images folder - Used as site logo
@@ -18,24 +18,24 @@ module.exports = {
   cover: "/images/cover1.jpg",
 
   // number of featured posts to show on home page
-  featuredPostCount: 2,
+  featuredPostCount: 4,
 
   // number of latest posts to show on home page before load more button
-  postPerPage: 8,
+  postPerPage: 4,
 
-  disqusShortName: "example", // disqus shortname for disqus comment
+  disqusShortName: "Yashar Moradi", // disqus shortname for disqus comment
 
   // JSONLD / Manifest for SEO
-  titleAlt: "Arun Gatsby theme", // Title for JSONLD
-  headline: "A premium gatsby blog template", // Headline for schema.org JSONLD
+  titleAlt: "Yashar Moradi", // Title for JSONLD
+  headline: "Strategic Technology Advisor | Fractional CTO | Agile Coach", // Headline for schema.org JSONLD
   favicon: "src/assets/images/icon.png", // Used for manifest favicon generation
-  shortName: "Arun", // shortname for manifest. MUST be shorter than 12 characters
-  author: "Biswajit Saha", // Author for schemaORGJSONLD
-  themeColor: "#0057ff",
+  shortName: "Yashar", // shortname for manifest. MUST be shorter than 12 characters
+  author: "Yashar Moradi", // Author for schemaORGJSONLD
+  themeColor: "#5c5fef",
   backgroundColor: "#ffffff",
 
   //Twitter and facebook data for SEO
-  twitterUsername: "@yourusername", // Twitter Username
+  twitterUsername: "@yasharmoradi", // Twitter Username
   facebook: "example-page", // Facebook Site Name
   ogLanguage: "en_US", // Facebook Language
   googleAnalyticsID: "XX-XXXXXXXXX-X",

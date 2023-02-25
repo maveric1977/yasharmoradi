@@ -5,7 +5,7 @@ featuredImage: ../images/girl-waring-woolen-sawl.jpg
 tags:
   - Lifestyle
 author: Yashar Moradi
-featured: true
+featured: false
 published: true
 ---
 Almost instantly the whole truth of the transaction seemed to rush upon her mind, and her wrath was inconceivably violent. She asked me a thousand questions in a breath; but, fortunately, was too vehement to attend to my embarrassment, which must otherwise have betrayed my knowledge of the deceit. Revenge was her first wish; and she vowed she would go the next morning to Justice Fielding, and inquire what punishment she might lawfully inflict upon the Captain for his assault.
