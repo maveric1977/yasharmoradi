@@ -1,7 +1,7 @@
 ---
 title: About Me
 date: 2023-02-25 22:54:54+01:00
-featuredImage: ""
+featuredImage: ../images/yashar_midres.jpeg
 published: true
 ---
 Hi there, I'm Yashar, and I'm a seasoned technology leader with over 25 years of experience in software architecture, lean/agile coaching, and mentorship for high-performing product development teams.

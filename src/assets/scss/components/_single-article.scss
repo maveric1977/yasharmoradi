@@ -67,7 +67,13 @@
         border-radius: var(--size-2);
         overflow: hidden;
     }
-
+    .page-featured-image-wrap {
+        @extend .featured-image-wrap;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        float: right;
+    }
     .featured-image-crop {
         height: 20rem;
         object-position: center;
