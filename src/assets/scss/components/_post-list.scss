@@ -108,6 +108,7 @@
         margin-right: 32px;
         position: relative;
         background-color: var(--c-gray-lighter);
+        -webkit-mask-image: -webkit-radial-gradient(white, black);
         img {
             position: absolute;
             height: 100%;

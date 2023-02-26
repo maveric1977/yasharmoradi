@@ -11,14 +11,14 @@ import RelatedPosts from "../components/RelatedPosts"
 const post = ({ data, location }) => {
     const { post, site } = data
 
-    const disqusConfig = {
-        config: {
-            url: post.fields.slug,
-            identifier: post.id,
-            title: post.frontmatter.title,
-            language: site.siteMetadata.siteLanguage,
-        },
-    }
+    // const disqusConfig = {
+    //     config: {
+    //         url: post.fields.slug,
+    //         identifier: post.id,
+    //         title: post.frontmatter.title,
+    //         language: site.siteMetadata.siteLanguage,
+    //     },
+    // }
     return (
         <Layout>
             <Seo

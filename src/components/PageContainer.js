@@ -11,7 +11,10 @@ const PageContainer = props => {
                         <article className="single-post">
                             { image && (
                                 <div className="page-featured-image-wrap">
-                                    <GatsbyImage image={ getImage(image) } alt={ title }/>
+                                    <GatsbyImage
+                                        image={ getImage(image) }
+                                        alt={ title }
+                                    />
                                 </div>
                             ) }
                             { title && (
