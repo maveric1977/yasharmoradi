@@ -38,9 +38,9 @@ module.exports = {
     //     },
     //   ],
     // },
-    {
-      name: "Contact",
-      url: "/contact/",
-    },
+    // {
+    //   name: "Contact",
+    //   url: "/contact/",
+    // },
   ],
 }
