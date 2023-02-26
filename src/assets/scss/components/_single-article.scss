@@ -67,6 +67,12 @@
         border-radius: var(--size-2);
         overflow: hidden;
     }
+
+    .featured-image-crop {
+        height: 20rem;
+        object-position: center;
+        object-fit: none;
+    }
 }
 .post-content {
     font-size: 1.125rem;
@@ -105,13 +111,20 @@
         margin: 10px 0;
     }
     blockquote {
+        color: var(--c-text-main);
         a,
         a:hover {
             color: var(--c-white);
             border-color: var(--c-white);
         }
         p {
+            font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+            font-weight: lighter;
+            font-style: italic;
             margin: 0;
+        }
+        &:after {
+            background-color: var(--c-primary-light);
         }
     }
     .tweet-quote-wrap {

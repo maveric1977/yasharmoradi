@@ -37,6 +37,15 @@ const post = ({ data, location }) => {
           <div className="row">
             <div className="col-lg-10 offset-lg-1">
               <article className="single-post">
+                {post.frontmatter.featuredImage && (
+                    <div className="featured-image-wrap">
+                      <GatsbyImage
+                          className="featured-image-crop"
+                          image={getImage(post.frontmatter.featuredImage)}
+                          alt={post.frontmatter.title}
+                      />
+                    </div>
+                )}
                 <header className="post-header">
                   <h1 className="post-title">{post.frontmatter.title}</h1>
                   <div className="post-meta flex">
@@ -76,37 +85,32 @@ const post = ({ data, location }) => {
                     </span>
                   </div>
                 </header>
-                {post.frontmatter.featuredImage && (
-                  <div className="featured-image-wrap">
-                    <GatsbyImage
-                      image={getImage(post.frontmatter.featuredImage)}
-                      alt={post.frontmatter.title}
-                    />
-                  </div>
-                )}
+
                 <div
                   className="post-content"
                   dangerouslySetInnerHTML={{ __html: post.html }}
                 />
                 <div className="post-footer">
+                  {!post.frontmatter.featured && (
                   <div className="tag-wrap">
                     {post.frontmatter.tags && (
                       <Tags tags={post.frontmatter.tags} />
                     )}
                   </div>
-                  <ShareLinks
-                    url={location.href}
-                    title={post.frontmatter.title}
-                  />
-                  <AuthorInfoCard author={post.frontmatter.author} />
+                  )}
+                  {/*<ShareLinks*/}
+                  {/*  url={location.href}*/}
+                  {/*  title={post.frontmatter.title}*/}
+                  {/*/>*/}
+                  {/*<AuthorInfoCard author={post.frontmatter.author} />*/}
                 </div>
               </article>
-              <PrevNextPosts prev={data.prev} next={data.next} />
-              <div className="comment-wrap">
-                <div className="comment-container">
-                  <Disqus config={disqusConfig} />
-                </div>
-              </div>
+              {/*<PrevNextPosts prev={data.prev} next={data.next} />*/}
+              {/*<div className="comment-wrap">*/}
+              {/*  <div className="comment-container">*/}
+              {/*    <Disqus config={disqusConfig} />*/}
+              {/*  </div>*/}
+              {/*</div>*/}
             </div>
           </div>
         </div>

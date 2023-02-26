@@ -25,11 +25,13 @@ const IndexPage = ({ data }) => {
                         featuredPostCount={ data.site.siteMetadata.featuredPostCount }
                     />
                 ) }
-                <PostLoop
-                    posts={ blogPosts }
-                    postPerPage={ data.site.siteMetadata.postPerPage }
-                    sectionTitle="Latest post"
-                />
+                { blogPosts.length > 0 && (
+                    <PostLoop
+                        posts={ blogPosts }
+                        postPerPage={ data.site.siteMetadata.postPerPage }
+                        sectionTitle="Latest post"
+                    />
+                ) }
             </div>
         </Layout>
     )
