@@ -16,36 +16,32 @@ module.exports = {
           url: "/services/",
         },
         {
-          name: "Features",
-          url: "/features/",
-        },
-        {
           name: "Legal notice",
           url: "/legal-notice/",
         },
       ],
     },
-    {
-      title: "Archive",
-      items: [
-        {
-          name: "Tags",
-          url: "/tags/",
-        },
-        {
-          name: "Authors",
-          url: "/authors/",
-        },
-        {
-          name: "Monthly archive",
-          url: "/monthly-archive/",
-        },
-        {
-          name: "Yearly archive",
-          url: "/yearly-archive/",
-        },
-      ],
-    },
+    // {
+    //   title: "Archive",
+    //   items: [
+    //     {
+    //       name: "Tags",
+    //       url: "/tags/",
+    //     },
+    //     {
+    //       name: "Authors",
+    //       url: "/authors/",
+    //     },
+    //     {
+    //       name: "Monthly archive",
+    //       url: "/monthly-archive/",
+    //     },
+    //     {
+    //       name: "Yearly archive",
+    //       url: "/yearly-archive/",
+    //     },
+    //   ],
+    // },
     {
       title: "Connect",
       items: [
