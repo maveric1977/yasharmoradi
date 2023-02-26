@@ -20,8 +20,8 @@ module.exports = {
           url: "/features/",
         },
         {
-          name: "404 Page",
-          url: "/error-page/",
+          name: "Legal notice",
+          url: "/legal-notice/",
         },
       ],
     },

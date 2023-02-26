@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
       <SearchPopupContext.Provider value={{ popupVisible, setPopupVisible }}>
         <Header />
         {children}
-        <NewsletterSubscription />
+        {/*<NewsletterSubscription />*/}
         <Footer />
         <SearchPopup />
       </SearchPopupContext.Provider>
