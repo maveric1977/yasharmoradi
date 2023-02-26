@@ -9,111 +9,113 @@ import author from "./author"
 import RelatedPosts from "../components/RelatedPosts"
 
 const post = ({ data, location }) => {
-  const { post, site } = data
+    const { post, site } = data
 
-  const disqusConfig = {
-    config: {
-      url: post.fields.slug,
-      identifier: post.id,
-      title: post.frontmatter.title,
-      language: site.siteMetadata.siteLanguage,
-    },
-  }
-  return (
-    <Layout>
-      <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-        image={getSrc(post.frontmatter.seoImage)}
-        author={post.frontmatter.author}
-        date={post.frontmatter.date}
-      />
-      <div className="main">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-10 offset-lg-1">
-              <article className="single-post">
-                {post.frontmatter.featuredImage && (
-                    <div className="featured-image-wrap">
-                      <GatsbyImage
-                          className="featured-image-crop"
-                          image={getImage(post.frontmatter.featuredImage)}
-                          alt={post.frontmatter.title}
-                      />
-                    </div>
-                )}
-                <header className="post-header">
-                  <h1 className="post-title">{post.frontmatter.title}</h1>
-                  <div className="post-meta flex">
-                    <div className="author-list flex">
-                      <Link
-                        className="author-image"
-                        to={`/author${post.frontmatter.author.fields.slug}`}
-                        aria-label={post.frontmatter.author.name}
-                      >
-                        {post.frontmatter.author.profilePicture !== null ? (
-                          <GatsbyImage
-                            image={getImage(
-                              post.frontmatter.author.profilePicture
-                            )}
-                            alt={author.name}
-                          />
-                        ) : (
-                          <User />
-                        )}
-                      </Link>
-                      <Link
-                        to={`/author${post.frontmatter.author.fields.slug}`}
-                        className="author-name"
-                      >
-                        {post.frontmatter.author.name}
-                      </Link>
-                      &nbsp;
-                    </div>
-                    <time
-                      className="post-date"
-                      dateTime={post.frontmatter.date}
-                    >
-                      {post.frontmatter.dateFormatted}
-                    </time>
-                    <span className="read-time">
-                      {post.timeToRead} min read
+    const disqusConfig = {
+        config: {
+            url: post.fields.slug,
+            identifier: post.id,
+            title: post.frontmatter.title,
+            language: site.siteMetadata.siteLanguage,
+        },
+    }
+    return (
+        <Layout>
+            <Seo
+                title={ post.frontmatter.title }
+                description={ post.frontmatter.description || post.excerpt }
+                image={ getSrc(post.frontmatter.seoImage) }
+                author={ post.frontmatter.author }
+                date={ post.frontmatter.date }
+            />
+            <div className="main">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-10 offset-lg-1">
+                            <article className="single-post">
+                                { post.frontmatter.featuredImage && (
+                                    <div className="featured-image-wrap">
+                                        <GatsbyImage
+                                            className="featured-image-crop"
+                                            image={ getImage(post.frontmatter.featuredImage) }
+                                            alt={ post.frontmatter.title }
+                                        />
+                                    </div>
+                                ) }
+                                <header className="post-header">
+                                    <h1 className="post-title">{ post.frontmatter.title }</h1>
+                                    { !post.frontmatter.featured && (
+                                        <div className="post-meta flex">
+                                            <div className="author-list flex">
+                                                <Link
+                                                    className="author-image"
+                                                    to={ `/author${ post.frontmatter.author.fields.slug }` }
+                                                    aria-label={ post.frontmatter.author.name }
+                                                >
+                                                    { post.frontmatter.author.profilePicture !== null ? (
+                                                        <GatsbyImage
+                                                            image={ getImage(
+                                                                post.frontmatter.author.profilePicture
+                                                            ) }
+                                                            alt={ author.name }
+                                                        />
+                                                    ) : (
+                                                        <User/>
+                                                    ) }
+                                                </Link>
+                                                <Link
+                                                    to={ `/author${ post.frontmatter.author.fields.slug }` }
+                                                    className="author-name"
+                                                >
+                                                    { post.frontmatter.author.name }
+                                                </Link>
+                                                &nbsp;
+                                            </div>
+                                            <time
+                                                className="post-date"
+                                                dateTime={ post.frontmatter.date }
+                                            >
+                                                { post.frontmatter.dateFormatted }
+                                            </time>
+                                            <span className="read-time">
+                      { post.timeToRead } min read
                     </span>
-                  </div>
-                </header>
+                                        </div>
+                                    ) }
+                                </header>
 
-                <div
-                  className="post-content"
-                  dangerouslySetInnerHTML={{ __html: post.html }}
-                />
-                <div className="post-footer">
-                  {!post.frontmatter.featured && (
-                  <div className="tag-wrap">
-                    {post.frontmatter.tags && (
-                      <Tags tags={post.frontmatter.tags} />
-                    )}
-                  </div>
-                  )}
-                  {/*<ShareLinks*/}
-                  {/*  url={location.href}*/}
-                  {/*  title={post.frontmatter.title}*/}
-                  {/*/>*/}
-                  {/*<AuthorInfoCard author={post.frontmatter.author} />*/}
+                                <div
+                                    className="post-content"
+                                    dangerouslySetInnerHTML={ { __html: post.html } }
+                                />
+                                <div className="post-footer">
+                                    { !post.frontmatter.featured && (
+                                        <div className="tag-wrap">
+                                            { post.frontmatter.tags && (
+                                                <Tags tags={ post.frontmatter.tags }/>
+                                            ) }
+                                        </div>
+                                    ) }
+                                    {/*<ShareLinks*/ }
+                                    {/*  url={location.href}*/ }
+                                    {/*  title={post.frontmatter.title}*/ }
+                                    {/*/>*/ }
+                                    {/*<AuthorInfoCard author={post.frontmatter.author} />*/ }
+                                </div>
+                            </article>
+                            {/*<PrevNextPosts prev={data.prev} next={data.next} />*/ }
+                            {/*<div className="comment-wrap">*/ }
+                            {/*  <div className="comment-container">*/ }
+                            {/*    <Disqus config={disqusConfig} />*/ }
+                            {/*  </div>*/ }
+                            {/*</div>*/ }
+                        </div>
+                    </div>
                 </div>
-              </article>
-              {/*<PrevNextPosts prev={data.prev} next={data.next} />*/}
-              {/*<div className="comment-wrap">*/}
-              {/*  <div className="comment-container">*/}
-              {/*    <Disqus config={disqusConfig} />*/}
-              {/*  </div>*/}
-              {/*</div>*/}
             </div>
-          </div>
-        </div>
-      </div>
-      <RelatedPosts posts={post.related} count={4} />
-    </Layout>
-  )
+            <RelatedPosts posts={ post.related } count={ 3 }/>
+        </Layout>
+    )
 }
 
 export default post

@@ -12,8 +12,13 @@
             left: 0;
             bottom: -4px;
         }
+        &.center {
+            display: block;
+            text-align: center;
+        }
     }
 }
+
 .post-card {
     margin-bottom: 64px;
     animation: slideUp 0.7s ease-out;
@@ -87,6 +92,29 @@
         }
         &> *:not(:first-child) {
             margin-left: 18px;
+        }
+    }
+}
+
+.service-card {
+    @extend .post-card;
+    display: inline-flex;
+
+    .service-img-wrap {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 32px;
+        position: relative;
+        background-color: var(--c-gray-lighter);
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: cover;
         }
     }
 }

@@ -18,7 +18,7 @@ const RelatedPosts = ({ posts, count }) => {
             </h3>
             <div className="row">
               {VisiblePosts.map((post, index) => (
-                <div className="col-lg-3 col-md-4 col-sm-6" key={index}>
+                <div className="offset-lg-1 col-lg-3 col-md-4 col-sm-6" key={index}>
                   <article className="related-post-card" data-id="{{post.id}}">
                     {post.frontmatter.featuredImage && (
                       <Link to={post.fields.slug} className="post-img-wrap">
@@ -43,6 +43,7 @@ const RelatedPosts = ({ posts, count }) => {
                           {post.frontmatter.title}
                         </Link>
                       </h2>
+                        { !post.frontmatter.featured && (
                       <div className="post-meta">
                         <time
                           className="post-date"
@@ -54,6 +55,7 @@ const RelatedPosts = ({ posts, count }) => {
                           {post.timeToRead} min read
                         </span>
                       </div>
+                            )}
                     </div>
                   </article>
                 </div>

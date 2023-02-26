@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import ServiceItem from "./ServiceItem";
+import ServiceItemSmall from "./ServiceItemSmall";
 
 const FeaturedPostLoop = ({ posts }) => {
   const data = useStaticQuery(graphql`
@@ -18,13 +18,13 @@ const FeaturedPostLoop = ({ posts }) => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-lg-10 offset-lg-1 js-post-list-wrap">
+        <div className="col-lg-12 js-post-list-wrap">
           <h2 className="h4 section-title">
-            <span>Services</span>
+            <span className="center">Services</span>
           </h2>
           {posts.map(
             (post, index) =>
-              index < featuredPostCount && <ServiceItem post={post} key={index} />
+              index < featuredPostCount && <ServiceItemSmall post={post} key={index} />
           )}
         </div>
       </div>
