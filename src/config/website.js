@@ -4,7 +4,7 @@ module.exports = {
   title: "Yashar Moradi", // Navigation and Site Title
   titleTemplate: "%s | Fractional CTO | Agile Coach", // To Add extra part in title. the title replace the %s. Example: `%s | Site title`
   description: "Strategic Technology Advisor | Fractional CTO | Agile Coach",
-  siteUrl: "https://yashar.moradi.space", // Domain address of your site. Do not add trailing slash!
+  siteUrl: "https://yasharmoradi.com", // Domain address of your site. Do not add trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
 
   // place logo images in static/images folder - Used as site logo

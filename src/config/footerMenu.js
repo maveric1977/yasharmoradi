@@ -21,27 +21,27 @@ module.exports = {
         },
       ],
     },
-    // {
-    //   title: "Archive",
-    //   items: [
-    //     {
-    //       name: "Tags",
-    //       url: "/tags/",
-    //     },
-    //     {
-    //       name: "Authors",
-    //       url: "/authors/",
-    //     },
-    //     {
-    //       name: "Monthly archive",
-    //       url: "/monthly-archive/",
-    //     },
-    //     {
-    //       name: "Yearly archive",
-    //       url: "/yearly-archive/",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Services",
+      items: [
+        {
+          name: "Fractional CTO",
+          url: "/fractional-cto/",
+        },
+        {
+          name: "Technology Advisory",
+          url: "/strategic-technology-advisory/",
+        },
+        {
+          name: "Leadership Mentoring",
+          url: "/leadership-mentoring/",
+        },
+        {
+          name: "Lean/Agile Coaching",
+          url: "/lean-agile-coaching/",
+        },
+      ],
+    },
     {
       title: "Connect",
       items: [

@@ -256,7 +256,7 @@ blockquote {
     }
     &::after {
         content: "";
-        background-color: var(--c-primary-main);
+        background-color: var(--c-quote-background);
         left: 0;
         right: 0;
         top: 0;

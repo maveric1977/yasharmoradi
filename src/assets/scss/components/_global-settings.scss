@@ -49,6 +49,7 @@
     --c-border-light: var(--c-gray-light);
     --shadow-opacity: 0.2;
     --c-shadow: 0 10px 10px rgba(0, 0, 0, var(--shadow-opacity));
+    --c-quote-background: #e0e1ff;
 }
 /*=====================================================
     dark theme colors ( as SCSS mixin )
@@ -63,6 +64,7 @@
     --c-border-light: var(--c-gray-light);
     --shadow-opacity: 0.2;
     --c-shadow: 0 10px 10px rgba(0, 0, 0, var(--shadow-opacity));
+    --c-quote-background: #5c5fef;
 }
 /*=====================================================
     ⚠ WARNING: please do not edit below this line,

@@ -72,8 +72,11 @@
         width: 20rem;
         height: 20rem;
         border-radius: 50%;
-        float: right;
         -webkit-mask-image: -webkit-radial-gradient(white, black);
+    }
+    .center-half {
+        width: 50%;
+        margin: auto;
     }
     .featured-image-crop {
         height: 20rem;
@@ -131,7 +134,7 @@
             margin: 0;
         }
         &:after {
-            background-color: var(--c-primary-light);
+            background-color: var(--c-quote-background);
         }
     }
     .tweet-quote-wrap {

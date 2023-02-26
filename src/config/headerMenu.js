@@ -8,10 +8,6 @@ module.exports = {
       name: "About Me",
       url: "/about/",
     },
-    {
-      name: "Services",
-      url: "/services/",
-    },
     // {
     //   name: "Tags",
     //   url: "/tags/",
@@ -24,20 +20,28 @@ module.exports = {
     //   name: "Elements",
     //   url: "/elements/",
     // },
-    // {
-    //   name: "archive",
-    //   url: "#",
-    //   subMenu: [
-    //     {
-    //       name: "Monthly archive",
-    //       url: "/monthly-archive/",
-    //     },
-    //     {
-    //       name: "Yearly archive",
-    //       url: "/yearly-archive/",
-    //     },
-    //   ],
-    // },
+    {
+      name: "Services",
+      url: "/services/",
+      subMenu: [
+        {
+          name: "Fractional CTO",
+          url: "/fractional-cto/",
+        },
+        {
+          name: "Technology Advisory",
+          url: "/strategic-technology-advisory/",
+        },
+        {
+          name: "Leadership Mentoring",
+          url: "/leadership-mentoring/",
+        },
+        {
+          name: "Lean/Agile Coaching",
+          url: "/lean-agile-coaching/",
+        },
+      ],
+    },
     // {
     //   name: "Contact",
     //   url: "/contact/",
