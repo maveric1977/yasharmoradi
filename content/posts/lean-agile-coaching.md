@@ -5,12 +5,7 @@ featuredImage: ../images/parabol-the-agile-meeting-toolbox-8a_bdj-tr_q-unsplash.
 tags:
   - Service
 author: Yashar Moradi
-description: As a Lean/Agile Coach, I help businesses improve their processes
-  and increase efficiency through the implementation of lean/agile
-  methodologies. I work with businesses to identify areas for improvement,
-  develop and implement lean/agile strategies, and provide ongoing support and
-  coaching. By partnering with me, businesses can reduce waste, increase
-  productivity, and achieve their goals more quickly and effectively.
+description: Helping businesses improve their processes and increase efficiency through lean/agile methodologies, reducing waste and achieving their goals more effectively.
 featured: true
 published: true
 ---

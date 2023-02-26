@@ -1,16 +1,12 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image"
-import { Disqus } from "gatsby-plugin-disqus"
 import Layout from "../components/Layout"
 import Tags from "../components/Tags"
-import PrevNextPosts from "../components/PrevNextPosts"
 import Seo from "../components/Seo"
 import User from "../assets/svg-icons/user.svg"
 import author from "./author"
 import RelatedPosts from "../components/RelatedPosts"
-import ShareLinks from "../components/ShareLinks"
-import AuthorInfoCard from "../components/AuthorInfoCard"
 
 const post = ({ data, location }) => {
   const { post, site } = data

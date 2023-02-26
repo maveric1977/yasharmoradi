@@ -6,12 +6,7 @@ tags:
   - Technology
   - Service
 author: Yashar Moradi
-description: As a Fractional CTO, I provide businesses with the expertise of a
-  Chief Technology Officer on a part-time or project basis. I work closely with
-  businesses to understand their technology needs, identify areas for
-  improvement, and develop strategies for growth. I help businesses navigate the
-  rapidly-evolving digital landscape, develop and implement technology roadmaps,
-  and ensure that technology is aligned with the overall business strategy.
+description: Supporting businesses navigate tech challenges, identify areas for growth, and align tech strategy with overall business goals.
 featured: true
 published: true
 ---

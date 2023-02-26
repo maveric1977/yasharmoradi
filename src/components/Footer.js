@@ -47,7 +47,7 @@ const Footer = () => {
                 {{> copyright}} */}
           <SocialLinks />
           <div className="copyright">
-            &copy; 2022 <Link to="/">{title}</Link> - All right Reserved
+            &copy; 2023 <Link to="/">{title}</Link> - All right Reserved
           </div>
         </div>
       </div>
