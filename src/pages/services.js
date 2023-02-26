@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 import ServiceItem from "../components/ServiceItem";
 
-const servicesPage = ({ data }) => {
+const services = ({ data }) => {
     const featuredPosts = data.allMarkdownRemark.nodes.filter(
         post => post.frontmatter.featured
     )
@@ -14,8 +14,7 @@ const servicesPage = ({ data }) => {
         <Layout>
             <Seo
                 title="Yashar Moradi: Services"
-                description="Yashar Moradi"
-                // offers a range of services including Lean/Agile Coaching, Leadership Mentoring, Strategic Technology Advisory, and Fractional CTO services to help startups and established businesses achieve their technology and leadership goals."
+                description="Yashar Moradi offers a range of services including Lean/Agile Coaching, Leadership Mentoring, Strategic Technology Advisory, and Fractional CTO services to help startups and established businesses achieve their technology and leadership goals."
             />
             <div className="main">
                 <div className="container">
@@ -33,7 +32,7 @@ const servicesPage = ({ data }) => {
     )
 }
 
-export default servicesPage
+export default services
 
 export const pageQuery = graphql`
   query {
