@@ -3,7 +3,7 @@ module.exports = {
   pathPrefix: "/", // If you deploy your site to yourdomain.tld/blog/ your pathPrefix should be "blog/"
   title: "Yashar Moradi: Technology Advisor | Fractional CTO | Agile Coach", // Navigation and Site Title
   titleTemplate: "%s | Fractional CTO | Agile Coach", // To Add extra part in title. the title replace the %s. Example: `%s | Site title`
-  description: "Yashar Moradi is a seasoned technology leader in Munich, Germany, providing expert guidance as a Technology Advisor, Fractional CTO, and Agile Coach. Let's work together to achieve your technology and leadership goals.",
+  description: "Hi I am Yashar Moradi a seasoned technology leader in Munich, Germany, providing expert guidance as a Technology Advisor, Fractional CTO, and Agile Coach. Let's work together to achieve your technology and leadership goals.",
   siteUrl: "https://www.yasharmoradi.com", // Domain address of your site. Do not add trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
 
