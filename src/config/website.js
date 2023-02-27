@@ -1,9 +1,9 @@
 module.exports = {
   // General settings
   pathPrefix: "/", // If you deploy your site to yourdomain.tld/blog/ your pathPrefix should be "blog/"
-  title: "Yashar Moradi", // Navigation and Site Title
+  title: "Yashar Moradi: Technology Advisor | Fractional CTO | Agile Coach", // Navigation and Site Title
   titleTemplate: "%s | Fractional CTO | Agile Coach", // To Add extra part in title. the title replace the %s. Example: `%s | Site title`
-  description: "Strategic Technology Advisor | Fractional CTO | Agile Coach",
+  description: "Yashar Moradi is a seasoned technology leader in Munich, Germany, providing expert guidance as a Technology Advisor, Fractional CTO, and Agile Coach. Let's work together to achieve your technology and leadership goals.",
   siteUrl: "https://www.yasharmoradi.com", // Domain address of your site. Do not add trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
 
@@ -27,7 +27,7 @@ module.exports = {
 
   // JSONLD / Manifest for SEO
   titleAlt: "Yashar Moradi", // Title for JSONLD
-  headline: "Strategic Technology Advisor | Fractional CTO | Agile Coach", // Headline for schema.org JSONLD
+  headline: "Technology Advisor | Fractional CTO | Agile Coach", // Headline for schema.org JSONLD
   favicon: "src/assets/images/icon.png", // Used for manifest favicon generation
   shortName: "Yashar", // shortname for manifest. MUST be shorter than 12 characters
   author: "Yashar Moradi", // Author for schemaORGJSONLD
