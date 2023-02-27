@@ -1,9 +1,9 @@
 module.exports = {
   social: [
-    {
-      name: "Twitter",
-      url: "https://twitter.com/yasharmoradi",
-    },
+    // {
+    //   name: "Email",
+    //   url: "mailto:info@yasharmoradi.com",
+    // },
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/yasharmoradi",
@@ -12,5 +12,9 @@ module.exports = {
       name: "Github",
       url: "https://github.com/maveric1977",
     },
+    {
+      name: "Medium",
+      url: "https://medium.com/@moradi.yashar",
+    }
   ],
 }

@@ -7,7 +7,7 @@ import Seo from "../components/Seo"
 
 const contact = ({ data }) => {
   const { page } = data
-  const { title, featuredImage, seoImage } = page.frontmatter
+  const { title, featuredImage, seoImage, featured } = page.frontmatter
   const { description, excerpt } = page
 
   return (
@@ -17,7 +17,7 @@ const contact = ({ data }) => {
         description={description || excerpt}
         image={getSrc(seoImage)}
       />
-      <PageContainer title={title} image={featuredImage}>
+      <PageContainer title={title} image={featuredImage} featured={featured}>
         <div
           className="post-content"
           dangerouslySetInnerHTML={{ __html: page.html }}

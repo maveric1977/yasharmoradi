@@ -2,7 +2,7 @@ import React from "react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const PageContainer = props => {
-    const { title, image } = props
+    const { title, image, featured } = props
     return (
         <div className="main">
             <div className="container">
@@ -10,7 +10,7 @@ const PageContainer = props => {
                     <div className="col-lg-10 offset-lg-1">
                         <article className="single-post">
                             <div className="center-half">
-                            { image && (
+                            { image && featured && (
                                 <div className="page-featured-image-wrap">
                                     <GatsbyImage
                                         image={ getImage(image) }
@@ -18,6 +18,11 @@ const PageContainer = props => {
                                     />
                                 </div>
                             ) }
+                            { image && !featured && (
+                                <div className="featured-image-wrap">
+                                    <GatsbyImage image={getImage(image)} alt={title} />
+                                </div>
+                            )}
                             </div>
                             { title && (
                                 <header className="post-header">
@@ -26,6 +31,12 @@ const PageContainer = props => {
                             ) }
                             { props.children }
                         </article>
+                        { featured && (
+                            <div className="text-center">
+                            <a className="btn" href="https://calendly.com/yashar_moradi/30min" target={ "_blank" } rel={ "noreferrer" }>Let's
+                            Connect</a>
+                            </div>
+                        ) }
                     </div>
                 </div>
             </div>

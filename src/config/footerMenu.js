@@ -46,10 +46,6 @@ module.exports = {
       title: "Connect",
       items: [
         {
-          name: "Twitter",
-          url: "https://twitter.com/yasharmoradi",
-        },
-        {
           name: "Linkedin",
           url: "https://www.linkedin.com/in/yasharmoradi",
         },
@@ -57,6 +53,14 @@ module.exports = {
           name: "Github",
           url: "https://github.com/maveric1977",
         },
+        {
+          name: "Calendly",
+          url: "https://calendly.com/yashar_moradi/",
+        },
+        {
+          name: "Email",
+          url: "mailto: info@yasharmoradi.com",
+        }
       ],
     },
   ],

@@ -13,8 +13,8 @@ Germany
 
 ##### Contact
 
-Phone: +4915167648055  
-Email: info@yasharmoradi1.de
+Phone: +49 (151) 67648055  
+Email: info@yasharmoradi.com
 
 ##### VAT ID
 VAT identification number according to § 27 a of the German Value Added Tax Act:
@@ -49,8 +49,8 @@ Friedenstr. 38
 
 ##### Kontakt
 
-Telefon: 015167648055  
-E-Mail: info@yasharmoradi1.de
+Telefon: +49 (151) 67648044  
+E-Mail: info@yasharmoradi.com
 
 ##### Umsatzsteuer-ID
 
@@ -59,7 +59,7 @@ Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
 
 ##### Gewerbeanmeldung
 
-Die Gewerbeanmeldung nach §14 Abs. 1 GewO wurde am 23.02.2023 durch Stadt Germering erteilt.
+Die Gewerbeanmeldung nach §14 Abs. 1 GewO wurde am 23.02.2023 durch die Stadt Germering erteilt.
 
 ##### Berufsbezeichnung und berufsrechtliche Regelungen
 
