@@ -15,7 +15,7 @@ module.exports = {
   stickyNav: true,
 
   //place default cover image in static/images folder - used in home page cover
-  cover: "/images/cover1.jpg",
+  cover: "static/images/cover.jpg",
 
   // number of featured posts to show on home page
   featuredPostCount: 4,

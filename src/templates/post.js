@@ -31,7 +31,7 @@ const post = ({ data, location }) => {
             <div className="main">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-10 offset-lg-1">
+                            <div className="col-lg-10 offset-lg-1">
                             <article className="single-post">
                                 { post.frontmatter.featuredImage && (
                                     <div className="featured-image-wrap">
