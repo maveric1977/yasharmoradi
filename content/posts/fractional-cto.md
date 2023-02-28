@@ -3,7 +3,6 @@ title: Fractional CTO
 date: 2023-02-24 17:30:38+01:00
 featuredImage: ../images/carlos-muza-hpjsku2uysu-unsplash.jpg
 tags:
-  - Technology
   - Service
 author: Yashar Moradi
 description: Supporting businesses navigate tech challenges, identify areas for growth, and align tech strategy with overall business goals.
