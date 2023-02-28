@@ -39,6 +39,7 @@ module.exports = {
   facebook: "example-page", // Facebook Site Name
   ogLanguage: "en_US", // Facebook Language
   googleAnalyticsID: "XX-XXXXXXXXX-X",
+  googleAnalytics4Id: "G-S9HDKZMGYP",
 
   // mailchimp endpoint.
   // To know how to get it see plugin documentation https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp/
