@@ -20,6 +20,7 @@
     "gatsby-plugin-disqus": "^1.2.4",
     "gatsby-plugin-google-analytics": "^4.13.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-google-gtag": "^5.7.0",
     "gatsby-plugin-image": "^2.13.0",
     "gatsby-plugin-local-search": "^2.0.1",
     "gatsby-plugin-mailchimp": "^5.2.2",
