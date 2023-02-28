@@ -6,6 +6,7 @@ import Tags from "./Tags"
 
 const PostItem = props => {
   const { post } = props
+
   return (
     <article className="post-card flex">
       {post.frontmatter.featuredImage && (
@@ -35,7 +36,7 @@ const PostItem = props => {
         <h2 className="h3 post-title">
           <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
         </h2>
-        <div className="post-excerpt">{post.excerpt}</div>
+        <div className="post-excerpt">{post.frontmatter.description}</div>
         <div className="post-meta">
           <time className="post-date" dateTime={post.frontmatter.date}>
             {post.frontmatter.dateFormatted}
