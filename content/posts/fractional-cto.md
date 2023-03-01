@@ -9,7 +9,7 @@ description: Supporting businesses navigate tech challenges, identify areas for 
 featured: true
 published: true
 ---
-As a seasoned technology leader with over 25 years of experience in software architecture and product development, I have led the development of several successful SaaS platforms. As a fractional CTO, I bring a unique blend of expertise to help businesses innovate, scale and grow.
+As a seasoned technology leader with years of experience in software architecture and product development, I have led the development of several successful SaaS platforms. As a fractional CTO, I bring a unique blend of expertise to help businesses innovate, scale and grow.
 
 > "Technology leadership is not just about managing technology, it's about managing change and driving business outcomes through the use of technology." - Bernard Golden
 
