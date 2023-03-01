@@ -103,6 +103,12 @@ const post = ({ data, location }) => {
                                     {/*<AuthorInfoCard author={post.frontmatter.author} />*/ }
                                 </div>
                             </article>
+                            { post.frontmatter.featured && (
+                                <div className="text-center">
+                                    <a className="btn" href="https://calendly.com/yashar_moradi/30min" target={ "_blank" } rel={ "noreferrer" }>Let's
+                                        Connect</a>
+                                </div>
+                            ) }
                             {/*<PrevNextPosts prev={data.prev} next={data.next} />*/ }
                             {/*<div className="comment-wrap">*/ }
                             {/*  <div className="comment-container">*/ }
