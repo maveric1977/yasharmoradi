@@ -9,7 +9,7 @@ description: Helping businesses improve their processes and increase efficiency 
 featured: true
 published: true
 ---
-As a seasoned lean/agile coach with over 25 years of experience, I am passionate about helping businesses achieve their technology and leadership goals through data-driven solutions. Lean/agile methodologies are key to achieving this, and I offer coaching services to help businesses adopt and implement these methodologies in their product development processes.
+As a seasoned lean/agile coach with years of experience, I am passionate about helping businesses achieve their technology and leadership goals through data-driven solutions. Lean/agile methodologies are key to achieving this, and I offer coaching services to help businesses adopt and implement these methodologies in their product development processes.
 
 > "Agile isn't a process, it's a mindset. It's about adapting to change, continuously improving, and delivering value to customers faster." - Linda Rising
 
