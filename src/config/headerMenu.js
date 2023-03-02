@@ -42,9 +42,9 @@ module.exports = {
         },
       ],
     },
-    // {
-    //   name: "Contact",
-    //   url: "/contact/",
-    // },
+    {
+      name: "Blog",
+      url: "/blog/",
+    },
   ],
 }

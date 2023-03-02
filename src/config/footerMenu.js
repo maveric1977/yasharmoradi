@@ -16,6 +16,10 @@ module.exports = {
           url: "/services/",
         },
         {
+          name: "Blog",
+          url: "/blog/",
+        },
+        {
           name: "Legal notice",
           url: "/legal-notice/",
         },
