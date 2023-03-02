@@ -5,13 +5,7 @@ featuredImage: ../images/carl-heyerdahl-ke0nc8-58mq-unsplash.jpg
 tags:
   - Productivity
 author: Yashar Moradi
-description: "Looking to improve your productivity and reduce stress? The
-  Getting Things Done (GTD) methodology by David Allen might be just what you
-  need. In this ultimate guide, I'll take you through the four steps of GTD:
-  capture everything, clarify your tasks, organize your tasks, and review your
-  tasks. By implementing these steps, you can free up mental space, focus on the
-  present moment, and make progress toward your goals. So, start using GTD
-  today and experience stress-free productivity like never before!"
+description: Looking to improve your productivity and reduce stress? The Getting Things Done (GTD) methodology by David Allen might be just what you need. In this ultimate guide, I'll take you through the four steps of GTD:capture everything, clarify your tasks, organize your tasks, and review your tasks. By implementing these steps, you can free up mental space, focus on the present moment, and make progress toward your goals. So, start using GTD today and experience stress-free productivity like never before!
 featured: false
 published: true
 ---
