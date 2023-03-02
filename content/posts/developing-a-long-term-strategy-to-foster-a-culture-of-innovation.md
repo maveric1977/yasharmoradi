@@ -33,12 +33,12 @@ Recognizing and rewarding innovation is critical to sustaining a culture of inno
 In the Harvard Business Review study, employees who received recognition had higher levels of engagement, job satisfaction, and commitment. Additionally, employees who received recognition were more likely to stay with the company and perform better.
 
 ## 5. Measure Progress
-Finally, it is essential to measure progress to ensure that the organization is making progress towards its innovation goals. Leaders should establish metrics and track progress regularly. According to a study by McKinsey[^5], companies that track their innovation performance are twice as likely to report success in achieving their innovation goals.
+Finally, it is essential to measure progress to ensure that the organization is making progress toward its innovation goals. Leaders should establish metrics and track progress regularly. According to a study by McKinsey[^5], companies that track their innovation performance are twice as likely to report success in achieving their innovation goals.
 
 In the McKinsey study, companies that scored high on innovation performance had a higher percentage of revenue coming from new products and services than companies that scored low on innovation performance. Additionally, companies that scored high on innovation performance had higher levels of employee engagement and satisfaction.
 
 ## Conclusion
-Innovation is essential for organizations to remain competitive and thrive in today's fast-paced business environment. By developing a long-term strategy to foster a culture of innovation, leaders can create an environment where innovation can thrive. By defining innovation, empowering employees, fostering a collaborative culture, rewarding and celebrating success, and measuring progress, leaders can create an environment where innovation can thrive. According to a study by Boston Consulting Group, companies that excel at innovation see 2.6 times more revenue growth and 50% more total shareholder returns than their peers. So, it's clear that investing in innovation is critical for long-term success.
+Innovation is essential for organizations to remain competitive and thrive in today's fast-paced business environment. By developing a long-term strategy to foster a culture of innovation, leaders can create an environment where innovation can thrive. By defining innovation, empowering employees, fostering a collaborative culture, rewarding and celebrating success, and measuring progress, leaders can create an environment where innovation can thrive.
 
 [^1]: Accenture, "The State of Innovation," 2018.
 [^2]: Gallup, "State of the American Workplace," 2017.
