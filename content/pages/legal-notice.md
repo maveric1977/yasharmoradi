@@ -18,7 +18,7 @@ Email: yashar@moradi.space
 
 ##### VAT ID
 VAT identification number according to § 27 a of the German Value Added Tax Act:
-Coming soon
+DE358894834
 
 ##### Business Registration
 The business registration according to §14 Abs. 1 GewO was issued on 23.02.2023 by the City of Germering.
@@ -55,7 +55,7 @@ E-Mail: yashar@moradi.space
 ##### Umsatzsteuer-ID
 
 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:  
-Coming soon
+DE358894834
 
 ##### Gewerbeanmeldung
 
