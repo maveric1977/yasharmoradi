@@ -13,7 +13,7 @@
     --c-black: #000000;
     --logo-header-height: 40px;
     --logo-footer-height: 32px;
-    --c-primary-light: #e0e1ff;
+    --c-primary-light: #A5A6F6;
     //--c-primary-main: #0057FF;
     --c-primary-main: #5c5fef;
     //--c-primary-dark: #012293;
@@ -55,6 +55,9 @@
     dark theme colors ( as SCSS mixin )
 =====================================================*/
 @mixin theme-dark {
+    --c-primary-light: #A5A6F6;
+    --c-primary-main: #7879F1;
+    --c-primary-dark: #5c5fef;
     --c-body-bg: #272935;
     --c-text-main: #f9f9fa;
     --c-text-light: #b2b2b3;

@@ -8,8 +8,8 @@ module.exports = {
   siteLanguage: "en", // Language Tag on <html> element
 
   // place logo images in static/images folder - Used as site logo
-  logoLight: "/images/yasharmoradi_logo.svg",
-  logoDark: "/images/yasharmoradi_logo.svg",
+  logoLight: "/images/ym_logo_long.svg",
+  logoDark: "/images/ym_logo_long_dark.svg",
 
   // sticky nav style
   stickyNav: true,
@@ -28,7 +28,7 @@ module.exports = {
   // JSONLD / Manifest for SEO
   titleAlt: "Yashar Moradi", // Title for JSONLD
   headline: "Technology Advisor | Fractional CTO | Agile Coach", // Headline for schema.org JSONLD
-  favicon: "src/assets/images/icon.png", // Used for manifest favicon generation
+  favicon: "src/assets/images/mav_white_bg.png", // Used for manifest favicon generation
   shortName: "Yashar", // shortname for manifest. MUST be shorter than 12 characters
   author: "Yashar Moradi", // Author for schemaORGJSONLD
   themeColor: "#5c5fef",
