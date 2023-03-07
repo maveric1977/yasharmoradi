@@ -63,7 +63,7 @@ module.exports = {
         },
         {
           name: "Email",
-          url: "mailto: yashar@moradi.space",
+          url: "mailto: yashar.moradi@yasharmoradi.com",
         }
       ],
     },

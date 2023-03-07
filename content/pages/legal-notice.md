@@ -14,7 +14,7 @@ Germany
 ##### Contact
 
 Phone: +49 (151) 67648055  
-Email: yashar@moradi.space
+Email: yashar.moradi@yasharmoradi.com
 
 ##### VAT ID
 VAT identification number according to § 27 a of the German Value Added Tax Act:
@@ -50,7 +50,7 @@ Friedenstr. 38
 ##### Kontakt
 
 Telefon: +49 (151) 67648044  
-E-Mail: yashar@moradi.space
+E-Mail: yashar.moradi@yasharmoradi.com
 
 ##### Umsatzsteuer-ID
 
