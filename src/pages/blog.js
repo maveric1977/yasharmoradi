@@ -11,15 +11,29 @@ const BlogPage = ({ data }) => {
     )
     return (
         <Layout>
-            <Seo homePage={ true }/>
+            <Seo
+                title="Insights on Technology, Leadership, and Innovation"
+                description="Yashar Moradi's blog offers thought-provoking insights and practical advice on technology, leadership, and innovation to help businesses succeed in today's fast-paced digital landscape."
+            />
             <div className="main">
-                { blogPosts.length > 0 && (
-                    <PostLoop
-                        posts={ blogPosts }
-                        // postPerPage={ data.site.siteMetadata.postPerPage }
-                        sectionTitle=""
-                    />
-                ) }
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-10 offset-lg-1">
+                            <article className="single-post">
+                                <header className="post-header">
+                                    <h1 className="post-title text-center">Yashar Moradi's Blog</h1>
+                                </header>
+                                    { blogPosts.length > 0 && (
+                                        <PostLoop
+                                            posts={ blogPosts }
+                                            // postPerPage={ data.site.siteMetadata.postPerPage }
+                                            sectionTitle=""
+                                        />
+                                    ) }
+                            </article>
+                        </div>
+                    </div>
+                </div>
             </div>
         </Layout>
     )
