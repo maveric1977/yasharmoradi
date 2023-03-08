@@ -40,6 +40,7 @@ module.exports = {
   ogLanguage: "en_US", // Facebook Language
   googleAnalyticsID: "XX-XXXXXXXXX-X",
   googleAnalytics4Id: "G-S9HDKZMGYP",
+  calendlyLink: "https://calendly.com/yashar_moradi/",
 
   // mailchimp endpoint.
   // To know how to get it see plugin documentation https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp/

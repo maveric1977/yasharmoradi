@@ -2,6 +2,7 @@ import React from "react"
 import SocialLinks from "./SocialLinks"
 import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { calendlyLink } from "../config/website";
 
 const HomeHero = () => {
     const { site } = useStaticQuery(graphql`
@@ -76,7 +77,7 @@ const HomeHero = () => {
                                 Let's connect and see how I can help drive meaningful growth for your business.
                                 <br/>
                                 <br/>
-                                <a className="btn" href="https://calendly.com/yashar_moradi/30min" target={ "_blank" } rel={ "noreferrer" }>Let's
+                                <a className="btn" href={ calendlyLink } target="_blank" rel="noreferrer">Let's
                                     Connect</a>
                             </div>
                             {/*<HomeHeroSubscription />*/ }

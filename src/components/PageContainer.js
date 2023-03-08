@@ -1,5 +1,6 @@
 import React from "react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { calendlyLink } from "../config/website";
 
 const PageContainer = props => {
     const { title, image, featured } = props
@@ -33,7 +34,7 @@ const PageContainer = props => {
                         </article>
                         { featured && (
                             <div className="text-center">
-                            <a className="btn" href="https://calendly.com/yashar_moradi/30min" target={ "_blank" } rel={ "noreferrer" }>Let's
+                            <a className="btn" href={ calendlyLink } target="_blank" rel="noreferrer">Let's
                             Connect</a>
                             </div>
                         ) }

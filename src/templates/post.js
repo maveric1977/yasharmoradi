@@ -7,6 +7,7 @@ import Seo from "../components/Seo"
 import User from "../assets/svg-icons/user.svg"
 import author from "./author"
 import RelatedPosts from "../components/RelatedPosts"
+import { calendlyLink } from "../config/website";
 
 const post = ({ data, location }) => {
     const { post, site } = data
@@ -105,7 +106,7 @@ const post = ({ data, location }) => {
                             </article>
                             { post.frontmatter.featured && (
                                 <div className="text-center">
-                                    <a className="btn" href="https://calendly.com/yashar_moradi/30min" target={ "_blank" } rel={ "noreferrer" }>Let's
+                                    <a className="btn" href={ calendlyLink } target="_blank" rel="noreferrer">Let's
                                         Connect</a>
                                 </div>
                             ) }
