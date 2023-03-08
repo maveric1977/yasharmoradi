@@ -25,6 +25,14 @@ module.exports = {
       url: "/services/",
       subMenu: [
         {
+          name: "Technical Due Diligence",
+          url: "/technical-due-diligence/",
+        },
+        {
+          name: "Lean/Agile Coaching",
+          url: "/lean-agile-coaching/",
+        },
+        {
           name: "Fractional CTO",
           url: "/fractional-cto/",
         },
@@ -35,10 +43,6 @@ module.exports = {
         {
           name: "Leadership Mentoring",
           url: "/leadership-mentoring/",
-        },
-        {
-          name: "Lean/Agile Coaching",
-          url: "/lean-agile-coaching/",
         },
       ],
     },

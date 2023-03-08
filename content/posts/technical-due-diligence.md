@@ -11,7 +11,12 @@ published: true
 ---
 As an experienced freelance CTO, I know how important it is for investors to make informed decisions before investing in a company. Technical due diligence is essential to this process, as it allows investors to understand the strengths, weaknesses, and potential risks of a company's technology assets.
 
-My technical due diligence service is designed to help investors gain a deep understanding of the technical aspects of a company they are considering investing in. Here's what you can expect from this service:
+My technical due diligence service is designed to help investors gain a deep understanding of the technical aspects of a company they are considering investing in. 
+
+>"Without proper due diligence, even the most promising business opportunities can quickly turn into costly mistakes." - Richard Branson
+
+
+Here's what you can expect from this service:
 
 1. A comprehensive review of technology assets: I will conduct a thorough review of the company's technology assets, including hardware, software, infrastructure, and data management systems. This will help identify any areas of weakness or potential risks that could impact the company's performance.
 2. Evaluation of technical team and processes: I will evaluate the technical team and processes in place to determine whether they are capable of delivering on the company's strategic objectives. This will include assessing the team's technical skills, knowledge, and experience, as well as reviewing the development processes, documentation, and testing procedures.
