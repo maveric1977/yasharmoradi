@@ -5,9 +5,7 @@ featuredImage: ../images/johannes-plenio-fmtde1fe23a-unsplash.jpg
 tags:
   - Service
 author: Yashar Moradi
-description: Guiding businesses in leveraging technology to achieve their goals.
-  I help identify emerging technologies, analyze their potential impact, and
-  develop aligned roadmaps.
+description: Guiding businesses in leveraging technology to achieve their goals. I help identify emerging technologies, analyze their potential impact, and develop aligned roadmaps.
 featured: true
 published: true
 ---

@@ -18,7 +18,7 @@ module.exports = {
   cover: "/images/cover.jpg",
 
   // number of featured posts to show on home page
-  featuredPostCount: 4,
+  featuredPostCount: 6,
 
   // number of latest posts to show on home page before load more button
   postPerPage: 4,
