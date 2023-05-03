@@ -9,7 +9,7 @@ description: Providing investors with comprehensive technical due diligence to a
 featured: true
 published: true
 ---
-As an experienced freelance CTO, I know how important it is for investors to make informed decisions before investing in a company. Technical due diligence is essential to this process, as it allows investors to understand the strengths, weaknesses, and potential risks of a company's technology assets.
+As an experienced CTO, I know how important it is for investors to make informed decisions before investing in a company. Technical due diligence is essential to this process, as it allows investors to understand the strengths, weaknesses, and potential risks of a company's technology assets.
 
 My technical due diligence service is designed to help investors gain a deep understanding of the technical aspects of a company they are considering investing in. 
 
