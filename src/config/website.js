@@ -8,8 +8,8 @@ module.exports = {
   siteLanguage: "en", // Language Tag on <html> element
 
   // place logo images in static/images folder - Used as site logo
-  logoLight: "/images/ym_logo_long.svg",
-  logoDark: "/images/ym_logo_long_dark.svg",
+  logoLight: "/images/ym_consulting_logo.svg",
+  logoDark: "/images/ym_consulting_logo_dark.svg",
 
   // sticky nav style
   stickyNav: true,
