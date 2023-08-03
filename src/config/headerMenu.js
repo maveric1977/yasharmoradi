@@ -29,6 +29,10 @@ module.exports = {
           url: "/technical-due-diligence/",
         },
         {
+          name: "Geospatial Product Advisory",
+          url: "/geospatial-product-advisory/",
+        },
+        {
           name: "Lean/Agile Coaching",
           url: "/lean-agile-coaching/",
         },
