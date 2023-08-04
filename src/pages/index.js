@@ -51,7 +51,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: frontmatter___date, order: DESC }
+      sort: { fields: frontmatter___title, order: ASC }
       filter: {
         frontmatter: { published: { ne: false } }
         fileAbsolutePath: { regex: "/content/posts/" }
