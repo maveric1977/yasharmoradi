@@ -33,7 +33,7 @@ module.exports = {
           url: "/technical-due-diligence/",
         },
         {
-          name: "Geospatial Product Advisory",
+          name: "GeoData Tech Advisory",
           url: "/geodata-tech-advisory/",
         },
         {
