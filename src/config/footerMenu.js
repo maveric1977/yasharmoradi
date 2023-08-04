@@ -29,6 +29,10 @@ module.exports = {
       title: "Services",
       items: [
         {
+          name: "Fractional CTO",
+          url: "/fractional-cto/",
+        },
+        {
           name: "Technical Due Diligence",
           url: "/technical-due-diligence/",
         },
@@ -37,16 +41,12 @@ module.exports = {
           url: "/geospatial-product-advisory/",
         },
         {
-          name: "Lean/Agile Coaching",
-          url: "/lean-agile-coaching/",
-        },
-        {
-          name: "Fractional CTO",
-          url: "/fractional-cto/",
-        },
-        {
           name: "Technology Advisory",
           url: "/strategic-technology-advisory/",
+        },
+        {
+          name: "Lean/Agile Coaching",
+          url: "/lean-agile-coaching/",
         },
         {
           name: "Leadership Mentoring",
