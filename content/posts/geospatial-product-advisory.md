@@ -1,7 +1,7 @@
 ---
 title: Geospatial Product Advisory
 date: 2023-03-08 16:16:04+01:00
-featuredImage: ../images/geospatial.jpg
+featuredImage: ../images/geospatial_titleimage.jpg
 tags:
 - Service
 author: Yashar Moradi
