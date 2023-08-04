@@ -38,7 +38,7 @@ module.exports = {
         },
         {
           name: "Geospatial Product Advisory",
-          url: "/geospatial-product-advisory/",
+          url: "/geodata-tech-advisory/",
         },
         {
           name: "Technology Advisory",
