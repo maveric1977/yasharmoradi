@@ -33,12 +33,12 @@ module.exports = {
           url: "/fractional-cto/",
         },
         {
-          name: "Technical Due Diligence",
-          url: "/technical-due-diligence/",
-        },
-        {
           name: "GeoData Tech Advisory",
           url: "/geodata-tech-advisory/",
+        },
+        {
+          name: "Technical Due Diligence",
+          url: "/technical-due-diligence/",
         },
         {
           name: "Technology Advisory",
