@@ -13,7 +13,7 @@ As a productivity enthusiast, I have tried various methodologies to manage my ta
 
 In his book, *Getting Things Done: The Art of Stress-Free Productivity,* David Allen describes GTD as "a way to clear your head, get organized, and stay that way." The methodology is based on the principle of capturing all your tasks, ideas, and commitments in a trusted system outside of your mind, so you can free up mental space and focus on the present moment.
 
-## Step 1: Capture Everything
+### Step 1: Capture Everything
 
 The first step in the GTD methodology is to capture everything that is on your mind. This includes tasks, ideas, and commitments. David Allen emphasizes the importance of getting everything out of your head and into a trusted system, so you can stop worrying about forgetting things and start focusing on the present moment.
 
@@ -21,7 +21,7 @@ The first step in the GTD methodology is to capture everything that is on your m
 
 To capture everything, create a list of all your tasks and commitments, either on paper or electronically. The key is to have a system that you trust and can access easily.
 
-## Step 2: Clarify Your Tasks
+### Step 2: Clarify Your Tasks
 
 Once you have captured everything, the next step is to clarify each task. This involves determining the next action that needs to be taken to move the task forward. Allen suggests asking yourself the following questions:
 
@@ -34,7 +34,7 @@ Once you have captured everything, the next step is to clarify each task. This i
 
 By clarifying your tasks, you can identify what needs to be done and take immediate action, preventing tasks from piling up and becoming overwhelming.
 
-## Step 3: Organize Your Tasks
+### Step 3: Organize Your Tasks
 
 Once you have clarified your tasks, the next step is to organize them into categories. Allen suggests using the following categories:
 
@@ -48,7 +48,7 @@ Once you have clarified your tasks, the next step is to organize them into categ
 
 By organizing your tasks into categories, you can easily identify what needs to be done and when, preventing tasks from slipping through the cracks and ensuring progress toward your goals.
 
-## Step 4: Review Your Tasks
+### Step 4: Review Your Tasks
 
 The final step in the GTD methodology is to review your tasks regularly. Allen suggests weekly reviews, but you can adjust the frequency to suit your needs. During the review, you should:
 
@@ -62,7 +62,7 @@ The final step in the GTD methodology is to review your tasks regularly. Allen s
 
 By regularly reviewing your tasks, you can stay on track and ensure progress toward your goals.
 
-## Conclusion
+### Conclusion
 
 The Getting Things Done methodology is a powerful tool for improving productivity and reducing stress. By capturing everything, clarifying your tasks, organizing them into categories, and regularly reviewing them, you can free up mental space and focus on the present moment. As David Allen says, "Your mind is for having ideas, not holding them."
 
