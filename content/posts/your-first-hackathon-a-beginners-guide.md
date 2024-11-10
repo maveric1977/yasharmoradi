@@ -10,7 +10,6 @@ description: First-time at a hackathon? This guide covers essential tips for pre
 featured: false
 published: true
 ---
-# Your First Hackathon: A Beginner’s Guide to Make the Most of the Experience
 
 So, you’re about to join your first hackathon? Congratulations! Whether you’re a student, professional, or curious tech enthusiast, hackathons are a thrilling way to stretch your creative muscles, learn new skills, and connect with like-minded innovators. But the first time can be a little intimidating. Don’t worry—here’s a quick guide to help you make the most of your first hackathon experience.
 
