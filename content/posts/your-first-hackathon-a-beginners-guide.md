@@ -4,7 +4,7 @@ title: >
 date: 2024-11-10 18:08:00+01:00
 featuredImage: ../images/aec-hackathon-zurich.jpg
 tags:
-  - Hackathon
+  - Innovation
 author: Yashar Moradi
 description: First-time at a hackathon? This guide covers essential tips for preparation, team formation, time management, and pitching your project. Learn how to tackle challenges, build effective prototypes, and enjoy the experience while networking and learning new skills. Perfect for hackathon beginners.
 featured: false
