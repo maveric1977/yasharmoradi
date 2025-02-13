@@ -23,7 +23,7 @@ const HeaderNavigation = () => {
               }`}
               key={index}
             >
-              <Link to={menuItem.url} activeClassName="nav-current">
+              <Link to={menuItem.url} activeClassName="nav-current" target={menuItem.featured ? "_blank" : "_self"}>
                 {menuItem.name}
                 {menuItem.subMenu !== null && <ArrowDown />}
               </Link>

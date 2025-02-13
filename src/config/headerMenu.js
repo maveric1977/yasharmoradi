@@ -5,9 +5,15 @@ module.exports = {
       url: "/",
     },
     {
+      name: "Agile4Life",
+      url: "https://agile4life.yasharmoradi.com",
+      featured: true
+    },
+    {
       name: "About Me",
       url: "/about/",
     },
+
     // {
     //   name: "Tags",
     //   url: "/tags/",
