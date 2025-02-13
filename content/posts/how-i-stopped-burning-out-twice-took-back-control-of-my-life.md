@@ -78,7 +78,7 @@ Since making these changes, I’ve:
 ✅ Focused on what actually matters—in work and life.\
 ✅ Had **more time for family, hobbies, and real rest.**
 
-And here’s the crazy part: **Now, even with 3 kids, an early stage startup, a volunteer role at opensource.construction, and a freelance coaching and advisory, I feel more balanced than ever.**
+And here’s the crazy part: **Now, even with 3 kids, an early stage startup, a hobby rock band, a volunteer role at opensource.construction, and a freelance coaching and advisory, I feel more balanced than ever.**
 
 Because now, instead of trying to do everything, I know exactly what’s worth doing.
 
