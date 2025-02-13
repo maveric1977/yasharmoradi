@@ -3,11 +3,11 @@ title: How I Stopped Burning Out (Twice) & Took Back Control of My Life
 date: 2025-02-12 18:08:00+01:00
 featuredImage: ../images/agile-in-life-dad-edition-blog.jpeg
 tags:
-  - Mental Health
-  - Productivity
+  - Health
+  - Lifestyle
 author: Yashar Moradi
 description: 🔥 I almost burned out—twice. The problem wasn’t time, it was execution. By applying Agile principles, I took back control. Now, with 3 kids, a startup, and a volunteer role, I feel more balanced than ever. 🚀 Learn how.
-featured: true
+featured: false
 published: true
 ---
 ## The Moment Everything Almost Crashed
@@ -68,7 +68,7 @@ Since applying Agile to my life, I’ve:
 ✅ Created more **focused execution** in my business.  
 ✅ Had **more time for family, hobbies, and actual rest.**
 
-And the best part? **Even though I now have 3 kids, a volunteer role at opensource.construction, and a freelance coaching advisory, I feel more balanced than ever.**
+And the best part? **Even though I now have 3 kids, a volunteer role at opensource.construction, and a freelance coaching and advisory, I feel more balanced than ever.**
 
 This isn’t theory. It’s a **battle-tested system** that works.
 
@@ -79,7 +79,7 @@ I built **Agile for Life Bootcamp** because I know there are other high-performe
 🚀 **Agile for Life Bootcamp: High-Performers & Dads Edition**  
 A **high-impact system** to help you execute better, work smarter, and finally achieve balance.
 
-If you’re ready to stop spinning your wheels and start running life like a high-performance startup, **check it out here:** [https://agile4life.yasharmoradi.com]
+If you’re ready to stop spinning your wheels and start running life like a high-performance startup, **[check it out here](https://agile4life.yasharmoradi.com)**.
 
 Let’s make this happen. 🔥
 
