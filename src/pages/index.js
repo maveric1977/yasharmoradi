@@ -2,12 +2,13 @@ import * as React from "react"
 import HomeHero from "../components/HomeHero"
 import Layout from "../components/Layout"
 import PostLoop from "../components/PostLoop"
-import { graphql } from "gatsby"
+import {graphql} from "gatsby"
 import FeaturedPostLoop from "../components/FeaturedPostLoop"
 import Seo from "../components/Seo"
+import HomeFeature from "../components/HomeFeature";
 
 // markup
-const IndexPage = ({ data }) => {
+const IndexPage = ({data}) => {
     const featuredPosts = data.allMarkdownRemark.nodes.filter(
         post => post.frontmatter.featured
     )
@@ -16,22 +17,25 @@ const IndexPage = ({ data }) => {
     )
     return (
         <Layout>
-            <Seo homePage={ true }/>
+            <Seo homePage={true}/>
             <HomeHero/>
+            <HomeFeature/>
             <div className="main">
-                { featuredPosts.length > 0 && (
+
+
+                {featuredPosts.length > 0 && (
                     <FeaturedPostLoop
-                        posts={ featuredPosts }
-                        featuredPostCount={ data.site.siteMetadata.featuredPostCount }
+                        posts={featuredPosts}
+                        featuredPostCount={data.site.siteMetadata.featuredPostCount}
                     />
-                ) }
-                { blogPosts.length > 0 && (
+                )}
+                {blogPosts.length > 0 && (
                     <PostLoop
-                        posts={ blogPosts }
-                        postPerPage={ data.site.siteMetadata.postPerPage }
+                        posts={blogPosts}
+                        postPerPage={data.site.siteMetadata.postPerPage}
                         sectionTitle="Latest post"
                     />
-                ) }
+                )}
             </div>
         </Layout>
     )
@@ -40,14 +44,16 @@ const IndexPage = ({ data }) => {
 export default IndexPage
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        description
-        siteUrl
-        featuredPostCount
-        postPerPage
+query {
+    site
+    {
+        siteMetadata
+        {
+            title
+            description
+            siteUrl
+            featuredPostCount
+            postPerPage
       }
     }
     allMarkdownRemark(

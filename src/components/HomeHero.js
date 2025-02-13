@@ -3,6 +3,7 @@ import SocialLinks from "./SocialLinks"
 import { graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { calendlyLink } from "../config/website";
+// import HomeHeroSubscription from "./HomeHeroSubscription"
 
 const HomeHero = () => {
     const { site } = useStaticQuery(graphql`
@@ -80,7 +81,7 @@ const HomeHero = () => {
                                 <a className="btn" href={ calendlyLink } target="_blank" rel="noreferrer">Let's
                                     Connect</a>
                             </div>
-                            {/*<HomeHeroSubscription />*/ }
+                            {/*<HomeHeroSubscription />*/}
                             <SocialLinks/>
                         </div>
                     </div>

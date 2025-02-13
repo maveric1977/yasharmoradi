@@ -23,7 +23,9 @@ const HeaderNavigation = () => {
               }`}
               key={index}
             >
-              <Link to={menuItem.url} activeClassName="nav-current" target={menuItem.featured ? "_blank" : "_self"}>
+              <Link to={menuItem.url} activeClassName="nav-current"
+                    className={menuItem.featured ? "btn btn-menuitem" : ""}
+                    target={menuItem.featured ? "_blank" : "_self"}>
                 {menuItem.name}
                 {menuItem.subMenu !== null && <ArrowDown />}
               </Link>
@@ -75,6 +77,7 @@ const HeaderNavigationQuery = graphql`
         headerMenu {
           name
           url
+          featured
           subMenu {
             name
             url
