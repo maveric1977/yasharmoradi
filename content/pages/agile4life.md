@@ -1,11 +1,9 @@
 ---
-title: Agile for Life
+title: "🔥 Agile for Life Bootcamp: High-Performers & Dads Edition"
 date: 2023-02-25 22:54:54+01:00
 published: true
 featured: true
 ---
-# 🔥 Agile for Life Bootcamp: High-Performers & Dads Edition
-
 Master Focus, Execution, and Balance Without Burning Out
 
 ## 🚀 Week 1: Reset & Prioritize – Building the Foundation
