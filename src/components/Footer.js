@@ -69,7 +69,6 @@ const siteQuery = graphql`
           items {
             name
             url
-            featured
           }
         }
       }
