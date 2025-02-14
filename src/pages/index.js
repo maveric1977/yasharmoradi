@@ -6,6 +6,7 @@ import {graphql} from "gatsby"
 import FeaturedPostLoop from "../components/FeaturedPostLoop"
 import Seo from "../components/Seo"
 import HomeFeature from "../components/HomeFeature";
+import post from "../templates/post";
 
 // markup
 const IndexPage = ({data}) => {
@@ -57,7 +58,7 @@ query {
       }
     }
     allMarkdownRemark(
-      sort: { fields: frontmatter___title, order: ASC }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: { published: { ne: false } }
         fileAbsolutePath: { regex: "/content/posts/" }

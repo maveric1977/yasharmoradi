@@ -106,12 +106,16 @@ const post = ({ data, location }) => {
                             </article>
                             { post.frontmatter.featured && (
                                 <div className="text-center">
-                                    <a className="btn" href={ calendlyLink } target="_blank" rel="noreferrer">Let's
-                                        Connect</a>
+                                    <a className="btn"
+                                       href={ post.frontmatter.cta ? post.frontmatter.cta : calendlyLink}
+                                       target="_blank"
+                                       rel="noreferrer">
+                                        { post.frontmatter.cta ? "Apply Now!" : "Let's Connect"}
+                                    </a>
                                 </div>
-                            ) }
-                            {/*<PrevNextPosts prev={data.prev} next={data.next} />*/ }
-                            {/*<div className="comment-wrap">*/ }
+                            )}
+                                {/*<PrevNextPosts prev={data.prev} next={data.next} />*/}
+                                {/*<div className="comment-wrap">*/ }
                             {/*  <div className="comment-container">*/ }
                             {/*    <Disqus config={disqusConfig} />*/ }
                             {/*  </div>*/ }
@@ -120,7 +124,7 @@ const post = ({ data, location }) => {
                     </div>
                 </div>
             </div>
-            <RelatedPosts posts={ post.related } count={ 3 }/>
+            {/*<RelatedPosts posts={ post.related } count={ 3 }/>*/}
         </Layout>
     )
 }
@@ -163,6 +167,7 @@ export const query = graphql`
           ...AuthorQueryFragment
         }
         featured
+        cta
       }
       excerpt(pruneLength: 150)
       related {

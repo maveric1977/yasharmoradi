@@ -23,9 +23,9 @@ Hackathons are typically fast-paced, high-energy events that bring together indi
 
 Preparation is key to making the most of your hackathon experience:
 
-- **Review the Agenda**: Familiarize yourself with the schedule and know when key events like team formations, mentoring sessions, and final presentations will take place.
-- **Choose Your Tools**: Make sure your laptop is loaded with the software and tools you might need, such as text editors, design software, or development environments. Check if the hackathon has any required tech stacks or APIs to use.
-- **Bring Essentials**: Pack your charger, extra batteries, snacks, a water bottle, and any personal items to stay comfortable for long stretches.
+🔹 **Review the Agenda**: Familiarize yourself with the schedule and know when key events like team formations, mentoring sessions, and final presentations will take place.
+🔹 **Choose Your Tools**: Make sure your laptop is loaded with the software and tools you might need, such as text editors, design software, or development environments. Check if the hackathon has any required tech stacks or APIs to use.
+🔹 **Bring Essentials**: Pack your charger, extra batteries, snacks, a water bottle, and any personal items to stay comfortable for long stretches.
 
 ### 3. Arrive Early and Meet People
 

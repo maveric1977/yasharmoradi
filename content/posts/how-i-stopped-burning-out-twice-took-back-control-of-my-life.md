@@ -54,9 +54,9 @@ I stopped letting my days be dictated by endless lists and instead broke my time
 
 Instead of piling on more, I asked myself:
 
-- **Does this really need to be done?**
-- **Is there a simpler way?**
-- **What would happen if I let this go?**
+🔹 **Does this really need to be done?**
+🔹 **Is there a simpler way?**
+🔹 **What would happen if I let this go?**
 
 Turns out, **a lot of things don’t actually need your energy.**
 
