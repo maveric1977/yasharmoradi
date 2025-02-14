@@ -4,6 +4,11 @@ module.exports = {
       title: "Quick links",
       items: [
         {
+          name: "Agile4Life",
+          url: "https://agile4life.yasharmoradi.com",
+          featured: true,
+        },
+        {
           name: "Home",
           url: "/",
         },

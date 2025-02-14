@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Logo from "./Logo"
 import SocialLinks from "./SocialLinks"
+import {ArrowDown} from "../icons";
 
 const Footer = () => {
   const data = useStaticQuery(siteQuery)
@@ -68,6 +69,7 @@ const siteQuery = graphql`
           items {
             name
             url
+            featured
           }
         }
       }
