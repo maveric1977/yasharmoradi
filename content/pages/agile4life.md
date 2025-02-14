@@ -4,7 +4,7 @@ date: 2023-02-25 22:54:54+01:00
 published: true
 featured: true
 ---
-![agile for life](/assets/images/agile4life-banner.jpg)
+![agile for life](../assets/images/agile4life-banner.jpg)
 Master Focus, Execution, and Balance Without Burning Out
 
 ## 🚀 Week 1: Reset & Prioritize – Building the Foundation
