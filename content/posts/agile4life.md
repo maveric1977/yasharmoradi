@@ -5,7 +5,7 @@ featuredImage: ../images/agile4life-cover.jpg
 tags:
   - Product
 author: Yashar Moradi
-cta: https://agile4life.yasharmoradi.com/#apply?utm_source=ymweb
+cta: https://agile4life.club/#apply?utm_source=ymweb
 description: Supporting businesses navigate tech challenges, identify areas for growth, and align tech strategy with overall business goals.
 featured: true
 published: true
@@ -78,6 +78,6 @@ For those who want **personalized coaching**:
 ---
 
 ### **The Next Bootcamp Starts Soon!**
-🔹 **Apply now at [agile4life.yasharmoradi.com](https://agile4life.yasharmoradi.com/#apply?utm_source=ymweb)**  
+🔹 **Apply now at [agile4life.club](https://agile4life.club/#apply?utm_source=ymweb)**  
 🔹 **Limited spots available – Secure your place today!**  
 

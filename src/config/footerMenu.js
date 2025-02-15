@@ -5,7 +5,7 @@ module.exports = {
       items: [
         {
           name: "Agile4Life",
-          url: "https://agile4life.yasharmoradi.com",
+          url: "https://agile4life.club",
           featured: true,
         },
         {

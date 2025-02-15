@@ -89,7 +89,7 @@ I built **Agile for Life Bootcamp** because I know there are others out there li
 🚀 **Agile for Life Bootcamp: High-Performers & Dads Edition**\
 A **high-impact system** to help you take control, execute with purpose, and finally find balance.
 
-If you’re tired of spinning your wheels and ready to take back control, **[check it out here](https://agile4life.yasharmoradi.com).**
+If you’re tired of spinning your wheels and ready to take back control, **[check it out here](https://agile4life.club).**
 
 Let’s make this happen. 🔥
 

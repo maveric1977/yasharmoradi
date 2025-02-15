@@ -7,7 +7,7 @@ const HomeFeature = () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-12 js-post-list-wrap">
-                    <Link to="https://agile4life.yasharmoradi.com" target="_blank">
+                    <Link to="https://agile4life.club" target="_blank">
                         <StaticImage
                             src="../assets/images/agile4life-banner.jpg"
                             alt={`Cover`}
