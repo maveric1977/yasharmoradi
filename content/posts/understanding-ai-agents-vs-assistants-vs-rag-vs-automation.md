@@ -77,10 +77,10 @@ Now that we’ve cleared up the confusion, let’s talk about what you actually 
 
 #### 2. Do I need AI to **help me do things, but still require my input**?
 - **Yes?** You need an **AI Assistant**.
-
+- **No?** Keep reading.
 #### 3. Do I need AI to **retrieve and summarize information**?
 - **Yes?** You need **RAG-enhanced AI**.
-
+- **No?** Keep reading.
 #### 4. Do I need AI to **speed up and optimize existing processes**?
 - **Yes?** You need **automation with AI steps**.
 
