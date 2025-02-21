@@ -24,7 +24,7 @@ An AI Agent isn’t just a chatbot or a tool that answers questions—it’s an 
 - **Make decisions dynamically**, adjusting based on real-time information.
 - **Act autonomously**, meaning they don’t just suggest actions but actually carry them out.
 
-### Example:
+#### Example:
 Imagine an AI Agent that manages your supply chain. It monitors stock levels, predicts shortages, evaluates suppliers, negotiates contracts, and places orders—all without you lifting a finger. That’s a real AI Agent.
 
 ---
@@ -36,7 +36,7 @@ AI Assistants are fantastic at making life easier, but they don’t work autonom
 - **Helpful suggestions and task completion** rather than independent action.
 - **Interaction-driven responses**, meaning they wait for user input.
 
-### Example:
+#### Example:
 Siri, Google Assistant, and ChatGPT are AI Assistants. They answer your questions, set reminders, and help with small tasks, but they don’t autonomously make decisions on your behalf.
 
 ---
@@ -48,7 +48,7 @@ Ever used ChatGPT and wished it had up-to-date knowledge? That’s where **Retri
 - **It reduces hallucinations by grounding AI in real data.**
 - **It’s great for research-heavy applications, but not for task execution.**
 
-### Example:
+#### Example:
 A legal research tool powered by RAG can pull case law from databases before answering legal questions. It’s not an AI Agent—it just retrieves and formats information more effectively.
 
 ---
@@ -60,7 +60,7 @@ Many AI-powered workflows are just **automation with AI sprinkled in**. These sy
 - **Follow clear rules**, meaning they don’t dynamically adapt like true AI Agents.
 - **Improve efficiency, but won’t replace complex decision-making.**
 
-### Example:
+#### Example:
 A customer support chatbot that classifies customer issues and routes them to the correct department is automation with an AI step, **not** an AI Agent.
 
 ---
